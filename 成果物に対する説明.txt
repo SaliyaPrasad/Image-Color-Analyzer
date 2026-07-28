@@ -1,0 +1,29 @@
+作品名
+Image Color Analyzer
+
+概要
+このアプリケーションは画像をアップロードし、画像の色や特徴を分析するシステムです。
+
+使用ライブラリ
+・Streamlit
+・OpenCV
+・NumPy
+・Matplotlib
+・Pillow
+
+主な機能
+・画像アップロード
+・グレースケール変換
+・エッジ検出
+・RGBヒストグラム表示
+・HSV分析
+・画像情報表示
+・平均色表示
+・画像ダウンロード
+
+工夫した点
+画像の色情報をヒストグラムやHSVで可視化し、OpenCVを利用した画像処理結果を見やすい画面で表示できるように工夫しました。
+
+Run
+
+py -m streamlit run "Image Color Analyzer.py"
